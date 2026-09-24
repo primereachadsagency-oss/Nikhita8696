@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Free Stock Market Education</title>
+  <meta name="description" content="Learn chart basics, market psychology & risk management. 100% educational. No buy/sell tips.">
+  <style>
+    :root{--bg:#0c0c1d;--panel:#15182b;--text:#eef2ff;--muted:#a7b0c5;--brand:#00ff99;}
+    *{box-sizing:border-box} html,body{margin:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:grid;place-items:center;padding:16px}
+    .card{width:100%;max-width:480px;background:var(--panel);border:1px solid #262b45;border-radius:16px;padding:20px;text-align:center;box-shadow:0 10px 35px rgba(0,0,0,.35)}
+    h1{font-size:1.6rem;margin:.25rem 0 0;background:linear-gradient(90deg,#00f0ff,var(--brand));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .sub{color:var(--muted);font-size:.98rem;margin:.5rem auto 1rem;max-width:36ch}
+    ul{list-style:none;padding:0;margin:0 0 1rem} li{margin:.45rem 0}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;border:1px dashed rgba(0,255,153,.35);background:rgba(0,255,153,.08);color:#d8ffe9;font-size:.85rem;margin-bottom:.75rem}
+    .cta{display:inline-block;margin-top:.5rem;padding:12px 16px;background:var(--brand);color:#041b14;font-weight:700;border-radius:12px;text-decoration:none;box-shadow:0 0 0 0 rgba(0,255,153,.55);animation:pulse 1.7s infinite}
+    @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,255,153,.45)}70%{box-shadow:0 0 0 18px rgba(0,255,153,0)}100%{box-shadow:0 0 0 0 rgba(0,255,153,0)}}
+    .note{font-size:.86rem;color:var(--muted);margin-top:1rem}
+    .disclaimer{font-size:.8rem;color:#9da7bb;margin-top:.6rem}
+    footer{margin-top:.9rem;font-size:.75rem;opacity:.8}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="pill">100% Educational • Policy Safe</div>
+    <h1>Learn Stock Market the Right Way</h1>
+    <p class="sub">Chart basics, market psychology & risk management for beginners. No tips, no promises.</p>
+    <ul aria-label="You will learn">
+      <li>• Reading trends & support/resistance (basics only)</li>
+      <li>• Risk rules & common beginner mistakes</li>
+      <li>• How to practice without real money</li>
+    </ul>
+    <a class="cta" href="bridge.html" rel="nofollow noopener">Start Learning</a>
+    <p class="note">No login required. Access learning resources after a short verification.</p>
+    <p class="disclaimer"><em>For educational purposes only. We do not provide investment, trading, or financial advice.</em></p>
+    <footer>© <span id="y"></span> Market Basics Learning</footer>
+  </main>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
